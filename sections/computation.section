@@ -1,0 +1,45 @@
+Identifier: "FlopsSection"
+DisplayName: "FLOPS Section"
+Description: "This section shows details on launch statistics and FLOPS achieved by a kernel."
+Header {
+  Metrics {
+    Label: "FLOPS / sec"
+    Name: "smsp__sass_thread_inst_executed_ops_fadd_fmul_ffma_pred_on.sum.per_second"
+  }
+  Metrics {
+    Label: "Single Precision Ops"
+    Name: "smsp__sass_thread_inst_executed_ops_fadd_fmul_ffma_pred_on.sum"
+  }
+  Metrics {
+    Label: "Single Precision Adds"
+    Name: "smsp__sass_thread_inst_executed_op_fadd_pred_on.sum"
+  }
+  Metrics {
+    Label: "Single Precision Mults"
+    Name: "smsp__sass_thread_inst_executed_op_fmul_pred_on.sum"
+  }
+  Metrics {
+    Label: "Single Precision Add Mults"
+    Name: "smsp__sass_thread_inst_executed_op_ffma_pred_on.sum"
+  }
+  Metrics {
+    Label: "Double Precision FLOPS / sec"
+    Name: "smsp__sass_thread_inst_executed_ops_dadd_dmul_dfma_pred_on.sum.per_second"
+  }
+  Metrics {
+    Label: "Double Precision Ops"
+    Name: "smsp__sass_thread_inst_executed_ops_dadd_dmul_dfma_pred_on.sum"
+  }
+  Metrics {
+    Label: "Double Precision Adds"
+    Name: "smsp__sass_thread_inst_executed_op_dadd_pred_on.sum"
+  }
+  Metrics {
+    Label: "Double Precision Mults"
+    Name: "smsp__sass_thread_inst_executed_op_dmul_pred_on.sum"
+  }
+  Metrics {
+    Label: "Double Precision Add Mults"
+    Name: "smsp__sass_thread_inst_executed_op_dfma_pred_on.sum"
+  }
+}
